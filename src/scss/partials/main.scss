@@ -1,0 +1,21 @@
+.main {
+  height: 100vh;
+  display: flex;
+  background: white;
+  &__header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__img {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 65px;
+    .far {
+      color: #FFD45C;
+    }
+  }
+}

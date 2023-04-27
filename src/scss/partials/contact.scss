@@ -1,0 +1,32 @@
+.contact {
+  padding: 100px 0;
+  background: rgb(24, 22, 70);
+  &__title {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    color: white;
+    &::after {
+      content: "";
+      height: 2px;
+      width: 10%;
+      display: inline;
+      background: #d2318e;
+    }
+  }
+  .item {
+    background: white; 
+    padding: 20px;
+    &__images{
+        img{
+            max-width: 100px;
+        }
+    }
+  }
+}
