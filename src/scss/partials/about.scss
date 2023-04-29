@@ -1,12 +1,15 @@
 .about {
   height: 100vh;
-  background: #141C47;
+  @media (max-width: 767px) {
+    height: 1000px;
+  }
+  background: #141c47;
   padding: 50px 0;
   display: flex;
   position: relative;
   align-items: center;
-  .container{
-    background: #141C47;
+  .container {
+    background: #141c47;
     z-index: 55;
   }
   &__title {
@@ -40,6 +43,9 @@
         font-weight: 600;
         padding: 10px 40px;
         border-radius: 8px;
+        @media (max-width: 767px) {
+          font-weight: 400;
+        }
         .fas {
           color: white;
           margin-right: 10px;
@@ -49,7 +55,7 @@
           color: white;
         }
         &.active {
-          background: #D2318E;
+          background: #d2318e;
           color: white;
         }
       }
@@ -92,6 +98,7 @@
       text-decoration: underline;
       font-weight: 600;
       color: #d2318e;
+     
     }
   }
   .tab-content {

@@ -1,5 +1,5 @@
 .contact {
-  padding: 100px 0;
+  padding: 100px 0 20px 0;
   background: rgb(24, 22, 70);
   &__title {
     font-size: 45px;
@@ -20,13 +20,36 @@
       background: #d2318e;
     }
   }
+  &__end {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    a {
+      font-size: 18px;
+      color: #32cd32;
+      img {
+        width: 30px;
+        height: auto;
+      }
+    }
+  }
   .item {
-    background: white; 
+    background: white;
     padding: 20px;
-    &__images{
-        img{
-            max-width: 100px;
-        }
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    &__images {
+      margin-bottom: 10px;
+      a {
+        font-weight: 600;
+        font-size: 18px;
+        color: rgb(24, 22, 70);
+      }
+      img {
+        max-width: 100px;
+        height: 100px;
+      }
     }
   }
 }

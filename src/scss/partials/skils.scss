@@ -1,9 +1,10 @@
 .skils {
   padding: 100px 0;
   position: relative;
-  background: #d2318e;
-  &__figma{
-    img{
+  // background: #d2318e;
+  background: white;
+  &__figma {
+    img {
       max-width: 100%;
       height: auto;
       border-radius: 4px;
@@ -19,13 +20,13 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
-    color: white;
+    color: #d2318e;
     &::after {
       content: "";
       height: 2px;
       width: 5%;
       display: inline;
-      background: #fbfbfb;
+      background: #d2318e;
     }
   }
   &__gif {
@@ -52,12 +53,16 @@
       flex-direction: column;
       li {
         margin-bottom: 10px;
+
         button {
           width: 100%;
           font-size: 18px;
           font-weight: 600;
           border-radius: 8px;
-          color: white;
+          color: #d2318e;
+          &.active {
+            border: 1px solid #d2318e;
+          }
         }
         width: 100%;
       }
@@ -82,7 +87,7 @@
     }
   }
   &__blockItem {
-    border: 1px solid white;
+    border: 1px solid #d2318e;
     padding: 20px;
     margin: 10px 0;
     .btn {

@@ -1,2 +1,5 @@
-# PorfolioNew
-PorfolioNew
+# Gulp2022
+Gulp2022
+<h3>Устанавливаем зависимости</h3>
+<b>npm install</b>
+<p>Запускаем гулп камандой: <b>gulp</b></p>
